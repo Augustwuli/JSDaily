@@ -11,6 +11,7 @@
         //且style.left获取的是字符串，需要用parseInt()取整转化为数字。
         var newLeft = parseInt(list.style.left) + offset;
         list.style.left = newLeft + 'px';
+		list.style.transition='300ms ease';
         if(newLeft < -2400){
         	list.style.left = 0 + 'px';
         }
@@ -22,7 +23,7 @@
 	function autoplay(){
 		timer = setInterval(function(){
 			next.onclick()
-		},1500);
+		},3000);
 	}
 	autoplay();
 	function stopplay(){
