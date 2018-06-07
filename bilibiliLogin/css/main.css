@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	width: 320px;
+	height: 200px;
+	margin:20px auto;
+}
+#list{
+	width: 320px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	background: url(../img/background.png);
+}
+#list img{
+	width: 320px;
+	height: 200px;
+	position: absolute;
+}
